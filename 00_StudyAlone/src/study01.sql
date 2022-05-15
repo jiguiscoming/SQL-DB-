@@ -101,4 +101,27 @@ from topic a, author b
 where a.author_id = b.id;
 
 
+------------------------------------------------------------------------------------
+
+select distinct author_id from TOPIC;
+
+select * from topic
+where not title='MySQL';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
