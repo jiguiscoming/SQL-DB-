@@ -24,3 +24,9 @@ insert into CUSTOMERS values(customers_seq.nextval,'Around the Horn','Thomas Har
 insert into CUSTOMERS values(customers_seq.nextval,'Berglunds snabbkop','Christina Berglund','Berguvsvagen 8','Lulea','S-958 22','Sweden');
 
 
+-- not equal => <>
+-- where not (condition) => not 'condition' // except 'condition'
+-- order by 1.asc	2.desc
+
+-- field**
+-- null :  can't use comparison operators instead "is null" or "is not null"
