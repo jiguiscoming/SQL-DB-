@@ -30,3 +30,10 @@ insert into CUSTOMERS values(customers_seq.nextval,'Berglunds snabbkop','Christi
 
 -- field**
 -- null :  can't use comparison operators instead "is null" or "is not null"
+
+-- select top => 위에 00번까지 read
+-- select * from table_name fetch first 3 rows only;
+-- percent 로 일부만 볼 수도 있음
+-- where도 당근 사용가능
+-- top문은 order by 와 마찬가지로 마지막에
+-- like => '_a%' 'a_%' 'a%o'
