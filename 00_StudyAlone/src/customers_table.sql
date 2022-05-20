@@ -37,3 +37,16 @@ insert into CUSTOMERS values(customers_seq.nextval,'Berglunds snabbkop','Christi
 -- where도 당근 사용가능
 -- top문은 order by 와 마찬가지로 마지막에
 -- like => '_a%' 'a_%' 'a%o'
+
+-- *(%):0~ // ?(_):1 // []: inside one of them // !(^)=not // -:decide the range // #: numeric character
+--SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+--FROM Orders
+--INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+
+--Join: (inner) Join// Left (Outer) join // right (outer) join// full (outer) join
+-- Self Join == 수업에서 배운거 // where로 연결점 찾아주는 것
+
+
+
+
+
