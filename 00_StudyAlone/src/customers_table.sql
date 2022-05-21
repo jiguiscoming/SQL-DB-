@@ -46,6 +46,10 @@ insert into CUSTOMERS values(customers_seq.nextval,'Berglunds snabbkop','Christi
 --Join: (inner) Join// Left (Outer) join // right (outer) join// full (outer) join
 -- Self Join == 수업에서 배운거 // where로 연결점 찾아주는 것
 
+-- Union -> 합쳐서 distict values갑을 select if, duplicate valeus 뽑고 싶으면 Union all
+-- Group by (기준) :: count/ max/ min/ sum/ avg
+-- Having :: where에서 count/ max/ min/ sum/ avg을 못 쓰니깐 쓰기 위한 조건문을 받음
+-- exists :: where에 붙어 조건이 존재하는가를 판단 -> ture or false -> ture면 list보여줌
 
 
 
