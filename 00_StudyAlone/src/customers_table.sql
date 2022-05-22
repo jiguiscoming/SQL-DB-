@@ -52,5 +52,9 @@ insert into CUSTOMERS values(customers_seq.nextval,'Berglunds snabbkop','Christi
 -- exists :: where에 붙어 조건이 존재하는가를 판단 -> ture or false -> ture면 list보여줌
 
 
+--any(where) // all(where/having) => boolean
+-- where 000=any():: 조건중 하나만 해도 okay // select all 000 // where 000=all() :: 다 그래야함
+-- select into : 새로운 테이블에 copy
+-- insert into : 기존 테이블에 copy => insert into 000 select ...
 
 
